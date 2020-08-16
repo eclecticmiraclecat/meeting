@@ -1,0 +1,36 @@
+{
+ "creation": "2020-08-16 14:09:20.110964",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "attendee_user",
+  "full_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "attendee_user",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Attendee User",
+   "options": "User"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Full Name"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-08-16 14:26:45.799899",
+ "modified_by": "Administrator",
+ "module": "Meeting",
+ "name": "Meeting Attendee",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
